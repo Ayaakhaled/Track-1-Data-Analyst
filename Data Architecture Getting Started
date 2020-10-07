@@ -1,0 +1,36 @@
+# Data Architecture Getting Started
+
+# Data Defined
+
+Information is not the same as data, though. Information is organized data, and from information :
+1) provided with a meaningful interpretation of that data.
+2) do things like identify corelations between different data points. Such as in the retail business, we might see a spike in sales on Friday nights, more so than any other night of the week or the weekend. It also can be used to support business decisions. Often, information comes in the form of summaries or reports that stem from the original raw data. And information can end up having different retention requirements over time than the source data upon which it's based.
+
+# storing large data in a database.
+- so an efficient database design becomes paramount, 
+- whether we're talking about a SQL database or even a NoSQL database.
+
+Another aspect of data storage and databases is
+- whether we have indexes to speed up searching
+- or whether we're using clustering. So we have multiple computing nodes that are servicing the data
+- or even caching database information in memory. Because it's more readily accessible, it's much more quickly accessible in memory than it is from being read on disk.
+
+So while data is definitely a valuable asset, making sure that we understand that data, we can get value from that data, is really what matters.
+
+
+# Data Privacy
+One of the biggest challenges in using today's computing systems relates to data privacy
+Data privacy can be achieved in many ways, including :
+1) through physical security. So such as window and door locks and alarm systems. 
+2) also, technical security controls can protect data in the form of things like firewalls, 
+that might be deployed at the network's edge to control traffic into and out of the network. 
+3) firewalls deployed on each and every computing device to control traffic into and out of those devices. 
+Then we've got encryption, the scrambling of data. So that while data is being transmitted, 
+only the possessor of the proper decryption key would be able to see the original data.
+The same thing would apply to data at rest or data that's being stored that needs to be protected from prying eyes. 
+It too should also be encrypted. In order for security policies to remain relevant, we need to have a periodic policy review. 
+Now that's because threats change over time. So do technological solutions.
+
+> In order for security policies to remain relevant, we need to have a periodic policy review. Now that's because threats change over time. So do technological solutions.
+And existing security controls put in place to protect data assets might have worked at one time,
+but might become less and less effective over time. So it's important then that we look these things over periodically to make improvements to tighten security
